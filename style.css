@@ -1,0 +1,245 @@
+.*,::before,::after{
+	margin:0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+html{
+	
+	scroll-behavior: smooth;
+	line-height: 150%;
+}
+body{
+	background-color: #e6e8ed;
+}
+.underline{
+	border-bottom: 2px solid black;
+	width: 50%;
+}
+.btn{
+	font-size: 18px;
+		border-radius:  9999px;
+}
+.navbar{
+	background-color: #5d8dfc;
+}
+.nav-link{
+	color:#fff;
+	font-size: 18px;
+}
+.navbar-brand img{
+   width: 150px;
+   height: 80px;
+}
+.hero{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	height: 100vh;
+	width: 100%;
+}
+.hero .right-img{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 20%;
+	height: 20%;
+}
+.hero .left-img{
+	position: absolute;
+	top: 35%;
+	left: -17%;
+	width: 55%;
+	height: 60%;
+}
+.hero .text{
+	position: absolute;
+	top: 7%;
+	left: 12%;
+	width: 70%;
+/*	height: 100%;*/
+}
+.hero .text hr{
+	width: 50%;
+	border-width: 3px;
+	background-color: #000;
+}
+.hero .text .btn-dark{
+	margin:5% 2%;
+}
+.main-heading{
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+.heading{
+	font-size: 1.5vw;
+	margin:0% 15%;
+}
+.card{
+	background-color: #ddcef5;
+	border-radius: 5%;
+	border:none;
+		box-shadow: -10px -10px 15px 0 #ffffff70,
+              10px 10px 15px rgb(168, 166, 166),
+             inset -10px -10px 15px rgb(209, 201, 201),
+             inset 10px 10px 15px 0 #eee2e270;
+            outline: none;
+}
+.card:hover{
+	box-shadow: none;
+}
+.card-img{
+	width: 30%;
+	height: 30%;
+}
+.card .card-head .left{
+	margin: 10% 20% 0%;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #bd5833;
+}
+.card .card-foot{
+	font-size: 13px;
+}
+.card .card-head .right{
+	margin: 15% 30% 0%;
+	padding-top: 1%;
+	width: 60%;
+	height: 30px;
+	border-radius:  9999px;
+	background-color: #efe8fa;
+}
+.right .inner-box{
+/*	margin:45% 15%;*/
+	width: 20px;
+	height: 20px;
+	border-radius:  50%;
+	background-color: #7734eb;
+}
+.right .inner-box-heading{
+	margin: 0% 0%;
+		color: #7734eb;
+	font-weight: bold;
+	font-size: 15px;
+}
+.card-heading{
+	color: #7734eb;
+	font-weight: bold;
+	font-size: 20px;
+}
+.card p{
+	font-size: 18px;
+}
+@media screen and (max-width:1200px){
+	
+	.hero{
+	height: 80vh;
+	width: 100%;
+}
+.hero .right-img{
+	position: absolute;
+	top: -3%;
+	right: 0%;
+	width: 20%;
+	height: 20%;
+}
+.hero .left-img{
+	position: absolute;
+	top: 35%;
+	left: -17%;
+	width: 55%;
+	height: 50%;
+}
+.hero .text{
+	position: absolute;
+	top: 7%;
+	left: 12%;
+	width: 70%;
+/*	height: 100%;*/
+}
+
+.hero .text hr{
+	width: 50%;
+	border-width: 3px;
+	background-color: #000;
+}
+
+.btn{
+	font-size: 25px;
+}
+.hero .text .btn-dark{
+	margin:5% 0%;
+}
+.underline{
+	border-bottom: 2px solid black;
+	width: 50%;
+
+	/*font-size: px;*/
+}
+.main-heading{
+	font-size: 4.5vw;
+	font-weight: bold;
+}
+.heading{
+	font-size: 3.5vw;
+	margin:0% 15%;
+}
+}
+@media screen and (max-width:576px){
+	.navbar-nav .nav-link{
+		color: #000;
+	}
+	.navbar-brand img{
+   width: 100px;
+   height: 50px;
+}
+	.hero{
+	height: 70vh;
+	width: 100%;
+}
+.hero .right-img{
+	position: absolute;
+	top: -3%;
+	right: 0%;
+	width: 20%;
+	height: 20%;
+}
+.hero .left-img{
+	display: none;
+}
+.hero .text{
+	position: absolute;
+	top: 7%;
+	left: 12%;
+	width: 70%;
+/*	height: 100%;*/
+}
+
+.hero .text hr{
+	width: 50%;
+	border-width: 3px;
+	background-color: #000;
+}
+
+.btn{
+	font-size: 12px;
+}
+.hero .text .btn-dark{
+	margin:5% 0%;
+}
+.underline{
+	border-bottom: 2px solid black;
+	width: 50%;
+	font-size: 20px;
+}
+.main-heading{
+	font-size: 5.5vw;
+	font-weight: bold;
+}
+.heading{
+	font-size: 3.5vw;
+	margin:0% 15%;
+}
+
+}
+/**/
