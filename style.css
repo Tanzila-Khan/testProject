@@ -78,14 +78,14 @@ body{
 	background-color: #ddcef5;
 	border-radius: 5%;
 	border:none;
-		box-shadow: -10px -10px 15px 0 #ffffff70,
+		
+}
+.card:hover{
+	box-shadow: -10px -10px 15px 0 #ffffff70,
               10px 10px 15px rgb(168, 166, 166),
              inset -10px -10px 15px rgb(209, 201, 201),
              inset 10px 10px 15px 0 #eee2e270;
             outline: none;
-}
-.card:hover{
-	box-shadow: none;
 }
 .card-img{
 	width: 30%;
